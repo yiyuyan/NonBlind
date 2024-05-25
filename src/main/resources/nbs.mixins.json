@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.nonblind.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "nbs.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "EntityMixin",
+    "GuiMixin",
+    "ItemEntityMixin",
+    "LevelRenderMixin",
+    "LivingEntityMixin",
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
